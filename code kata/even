@@ -1,8 +1,9 @@
 a=input()
 b=int(a)
-if (b%2==0):
+if(b>0):
+ if (b%2==0):
   print("Even")
-elif (b%2!=0):
+ else:
   print("Odd")
 else:
   print("invalid")
