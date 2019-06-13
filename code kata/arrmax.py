@@ -1,3 +1,3 @@
-n=int(input())
-m=list(map(int,input().split()))
-print(max(m))
+pq=int(input())
+arr=list(map(int,input().split()))
+print(max(arr))
