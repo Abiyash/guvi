@@ -1,0 +1,5 @@
+w,q=input().split()
+a=int(w)
+c=int(q)
+r=list(map(int,input().split()))
+print(r.count(c))
