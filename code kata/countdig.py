@@ -1,2 +1,2 @@
-w=input()
-print(len(w))
+dig=input()
+print(len(dig))
