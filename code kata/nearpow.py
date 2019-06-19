@@ -1,3 +1,3 @@
-p=int(input())
-q=p*2
-print(q)
+pq=int(input())
+w=pq*2
+print(w)
