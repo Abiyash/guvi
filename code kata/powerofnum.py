@@ -1,2 +1,2 @@
-p,q=map(int,input().split())
-print(p**q)
+w,x=map(int,input().split())
+print(w**x)
