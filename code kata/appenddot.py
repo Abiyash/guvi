@@ -1,0 +1,2 @@
+pqw=input()
+print(pqw+'.')
