@@ -1,12 +1,12 @@
-p=[p for p in input().split()]
-p[2]=int(p[2])
-count1 = 0
-for i in range(len(p[0])):
-    t=p[0]
-    q=p[1]
-    if t[i]!=q[i]:
-        count1=count1+1
-if count1==x[2]:
-  print ("yes")
+p=input().split()
+q=int(p[2])
+a=p[0]
+b=p[1]
+s=0
+for i in range(0,len(p[0])):
+    if a[i]!=b[i]:
+        s=s+1
+if s==q:
+    print('yes')
 else:
-  print ("no")
+    print('no')
